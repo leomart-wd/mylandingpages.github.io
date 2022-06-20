@@ -1,0 +1,78 @@
+/* Selector {
+     property: value;
+
+} */
+
+/* selector * is to apply style to everything, with specificity casqueding
+more styles are applied with other types of selectors */
+*{
+     text-align: right;
+}
+
+body{
+     background-image: url(background-image.jpg);
+     background-size: cover;
+}
+
+h2 {
+     color: red;
+}
+p {
+     color: #AA5439;
+     text-align: center;
+     /* border: 5px solid rgb(255, 176, 170); */
+     /* by adding rgba, stands for alpha, you can add a level of opachity */
+     border: 5px solid rgba(255, 176, 170, 0.2);
+     cursor: pointer;
+}
+
+p {
+     /* color: blue;
+     text-decoration: underline;
+     text-transform: uppercase; */
+     line-height: 50px;
+     font-style: italic;
+     font-weight: bold;
+     font-size: 120%;
+     font-family: 'Poiret One', cursive;;
+     /* font-family: Georgia, 'Times New Roman', Times, serif; */
+     /* If the browser doesn't have the font, look for the next one */
+     /* font-family: "Times New Roman"; */
+}
+
+
+
+li{
+     list-style: none;
+     display: inline-block;
+}
+
+img {
+     float: right;
+}
+
+footer{ 
+     clear: both;
+     text-align: center;
+}
+
+.webtext {
+     border: 5px dashed green
+}
+
+.active {
+     color: red;
+}
+
+/* selector id u can use it only once in one section/div */
+#div1 {
+     background-color: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+     background-color: rgba(255, 0, 0, 0.2);
+}
+
+#div3 {
+     background-color: rgba(255, 255, 0, 0.6)
+}
