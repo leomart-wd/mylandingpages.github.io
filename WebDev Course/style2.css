@@ -1,0 +1,16 @@
+h2{
+     color: blue;
+}
+
+h2, p {
+     color: #AA5439;
+     text-align: center;
+     /* border: 5px solid rgb(255, 176, 170); */
+     /* by adding rgba, stands for alpha, you can add a level of opachity */
+     border: 5px solid rgba(255, 176, 170, 0.2);
+     cursor: pointer;
+}
+
+.webtext {
+     border: 5px dashed green
+}
